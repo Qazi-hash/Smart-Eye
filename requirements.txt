@@ -1,0 +1,30 @@
+# Python Requirements for Smart Eye Model Training
+# Install with: pip install -r requirements.txt --break-system-packages
+
+# Deep Learning Frameworks
+ultralytics==8.0.0
+tensorflow==2.15.0
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Computer Vision
+opencv-python==4.8.0
+Pillow>=10.0.0
+
+# Data Processing
+numpy>=1.24.0
+pandas>=2.0.0
+PyYAML>=6.0
+
+# Model Optimization
+onnx>=1.14.0
+onnxruntime>=1.15.0
+
+# Utilities
+tqdm>=4.65.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Testing
+pytest>=7.4.0
+pytest-cov>=4.1.0
